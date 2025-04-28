@@ -16,7 +16,7 @@ Weather App is a sleek and responsive weather platform that allows users to easi
 - Mobile-friendly design
 
 
-**Live Demo:** [PhoneKart](https://forecastify2025.netlify.app)  
+**Live Demo:** (https://forecastify2025.netlify.app)  
 
 Contributions & feedback are welcome! 🚀
 
