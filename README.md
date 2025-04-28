@@ -1,3 +1,26 @@
+# Weather App 🌦️ – A Modern Weather Forecasting App 
+
+Weather App is a sleek and responsive weather platform that allows users to easily search for weather information by city. Built with Next.js, it fetches real-time data from the OpenWeatherMap API and provides a smooth and user-friendly experience with a clean interface and mobile-responsive design.
+
+## 🔹 Tech Stack  
+- Next.js  
+- JavaScript
+- Tailwind CSS
+- OpenWeatherMap API
+- Netlify  
+
+## 🔹 Features  
+- Search for weather by city name
+- Displays temperature, humidity, and weather conditions
+- Error handling for invalid city searches
+- Mobile-friendly design
+
+
+**Live Demo:** [PhoneKart](https://phonekartpk.netlify.app/)  
+
+Contributions & feedback are welcome! 🚀
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
