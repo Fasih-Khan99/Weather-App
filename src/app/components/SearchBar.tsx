@@ -57,6 +57,7 @@ export const SearchBar = ({ onSearch }: { onSearch: (city: string) => void }) =>
                     alt="Search Icon"
                     width={32}
                     height={32}
+                    unoptimized={true}
                     className="left-10 transform opacity-90"
                 />
                 <input
