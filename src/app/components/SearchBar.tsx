@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const API_KEY = "e4bd2e3231f7f0b998c050771a9d3d09"; // <-- Add your API key here
@@ -51,10 +52,12 @@ export const SearchBar = ({ onSearch }: { onSearch: (city: string) => void }) =>
                 onSubmit={handleSearch}
             >
                 {/* Search Icon inside input */}
-                <img
+                <Image
                     src="/search.png"
                     alt="Search Icon"
-                    className="left-10 transform w-8 h-8 opacity-90"
+                    width={32}
+                    height={32}
+                    className="left-10 transform opacity-90"
                 />
                 <input
                     type="text"
@@ -73,6 +76,3 @@ export const SearchBar = ({ onSearch }: { onSearch: (city: string) => void }) =>
         </div>
     );
 };
-
-
-
