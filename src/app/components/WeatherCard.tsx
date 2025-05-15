@@ -1,5 +1,5 @@
 "use client";
-const WeatherCard = ({ data }: { data: any }) => {
+export const WeatherCard = ({ data }: { data: any }) => {
   // Calculate local time using timezone offset
   const utcTime = new Date(new Date().getTime() + new Date().getTimezoneOffset() * 60000);
   const localTime = new Date(utcTime.getTime() + data.timezone * 1000);
@@ -38,4 +38,3 @@ const WeatherCard = ({ data }: { data: any }) => {
   );
 };
 
-export default WeatherCard;

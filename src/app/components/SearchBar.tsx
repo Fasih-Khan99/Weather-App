@@ -4,7 +4,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const API_KEY = "e4bd2e3231f7f0b998c050771a9d3d09"; // <-- Add your API key here
 
-const SearchBar = ({ onSearch }: { onSearch: (city: string) => void }) => {
+export const SearchBar = ({ onSearch }: { onSearch: (city: string) => void }) => {
     const [city, setCity] = useState("");
     const [isClient, setIsClient] = useState(false); // Track if we are on the client side
 
@@ -74,5 +74,5 @@ const SearchBar = ({ onSearch }: { onSearch: (city: string) => void }) => {
     );
 };
 
-export default SearchBar;
+
 

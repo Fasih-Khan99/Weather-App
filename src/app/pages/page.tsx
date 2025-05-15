@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
-import SearchBar from "../components/SearchBar";
-import WeatherCard from "../components/WeatherCard";
+import {SearchBar} from "../components/SearchBar";
+import {WeatherCard} from "../components/WeatherCard";
 
 export const HomePage = () => {
   const [weatherData, setWeatherData] = useState<any>(null);
