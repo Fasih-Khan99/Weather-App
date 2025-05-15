@@ -37,7 +37,7 @@
 // };
 
 // export default HomePage;
-import {HomePage} from './pages/page';
+import HomePage from './pages/page';
 
 export default function WeatherApp() {
   return (

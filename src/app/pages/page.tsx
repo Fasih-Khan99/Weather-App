@@ -17,7 +17,7 @@ interface WeatherData {
   };
 }
 
-export const HomePage = () => {
+const HomePage = () => {
   const [weatherData, setWeatherData] = useState<WeatherData | null>(null);
   const API_KEY = "e4bd2e3231f7f0b998c050771a9d3d09"; // OpenWeather API key
   const defaultCity = "Karachi"; // Default city
@@ -49,3 +49,5 @@ export const HomePage = () => {
     </div>
   );
 };
+
+export default HomePage;
