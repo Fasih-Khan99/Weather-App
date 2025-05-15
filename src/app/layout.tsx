@@ -16,7 +16,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
        
         <main>{children}</main>
         <footer className="bg-black p-4 text-white text-center">
-          <p>&copy; 2025 WeatherApp</p>
+          <p>&copy; 2025 Forecastify</p>
         </footer>
       </body>
     </html>
@@ -24,3 +24,4 @@ const Layout = ({ children }: { children: ReactNode }) => {
 };
 
 export default Layout;
+    
